@@ -1,0 +1,1 @@
+document.querySelectorAll('form').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();alert('Kiitos! Tämä demo-lomake voidaan kytkeä sähköpostiin, CRM:ään tai lomakepalveluun ennen julkaisua.');}));
